@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 13.1 - Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Jogo da Velha</h1>
+        <hr>
+    </header>
+    <section id="names">
+        <div class="insertNames">
+            <label for="name1">Player 1:</label>
+            <input type="text" name="names" id="name1">
+
+            <label for="name2">Player 2:</label>
+            <input type="text" name="names" id="name2">
+        </div>
+        <div class="playerRond">
+            <h2>Player X</h2>
+        </div>
+        <hr>
+    </section>
+
+    <section id="velha">
+        <div class="game-board" id="gameBoard">
+        <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+        <button id="resetButton">Reiniciar Jogo</button>
+    </section>
+    
+</body>
+</html>

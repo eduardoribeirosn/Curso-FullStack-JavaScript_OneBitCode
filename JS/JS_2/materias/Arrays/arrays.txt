@@ -1,0 +1,16 @@
+/* Exemplos de comandos de Arrays:
+
+    (v = Váriavel, c = Conteúdo)
+
+    v.push(c) - Adicionar algo no fim da Array
+    v.pop() - Excluir a última coisa da Array
+    v.unshift(c) - Adicionar algo no começo da Array
+    v.shift() - Excluir a primeira coisa da Array
+    v.includes(c) - Verifica se um elemento está presente na Array
+    v.indexof(c) - Encontra o indice que possui o elemento indicado, ou -1 caso ele não exista no array
+    v.slice(c, c) - Copia de outra Array, segundo "c" não é necessário, se nn tiver ele copia até o final
+    v.concat(c, c) - Junta dois ou mais arrays e/ou itens e devolve o resultado (sem alterar nenhum dos arrays)
+    v.splice(c, 1, c) - Permite remover elementos em qualquer posição do array e substituir por novos, o número 1 é a quantidade de elementos após o primeiro c, que vai ser removido/alterado.
+
+*/
+

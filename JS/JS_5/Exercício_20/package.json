@@ -1,0 +1,12 @@
+{
+  "name": "exercicio_20",
+  "version": "1.0.0",
+  "description": "Utilizando POO com o DOM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zdu",
+  "license": "ISC",
+  "type": "module"
+}

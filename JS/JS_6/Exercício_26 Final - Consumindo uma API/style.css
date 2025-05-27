@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #747221;
+}
+
+header {
+    text-align: center;
+}
+
+header > h1 {
+    margin: 1rem;
+    /* font-size: 2.5rem; */
+}
+
+/* main {
+    
+} */
+
+main > .money {
+    text-align: center;
+    background-color: #fff;
+    width: auto;
+    height: 1rem;
+    padding: 1rem;
+    border-radius: 5rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+main > .mid {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .mids {
+    background-color: rgba(22, 22, 22, 0.5);
+    border-radius: 1rem;
+    /* max-width: 550px;
+    width: 60%; */
+    width: 40vw;
+    height: 30rem;
+    box-sizing: border-box;
+}
+
+main .historic {
+    overflow-y: auto;
+}
+
+main .historic::-webkit-scrollbar {
+    width: 8px; /* largura da barra */
+  }
+
+main .historic::-webkit-scrollbar-thumb {
+    background-color: #777777; /* parte que se move */
+    border-radius: 5px;
+  }
+
+main .historic::-webkit-scrollbar-track {
+    background: #000000; /* trilho da barra */
+    border-radius: 5px;
+}
+
+main #historic {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 1rem 3rem;
+}
+
+main #menu {
+    justify-content: space-around;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+
+main .dflex {
+    display: flex;
+}
+
+main .dnone {
+    display: none;
+}
+
+main #menu button {
+    width: 22rem;
+    padding: 1rem .5rem;
+    border-radius: 1rem;
+    border: transparent solid 1px;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: transform 0.2s ease;
+}
+
+main #menu button:hover, main button:hover {
+    /* background-color: #000; */
+    color: #fff;
+    transform: scale(1.05);
+}
+
+main #menu button:active, main button:active {
+    transform: scale(1.1);
+}
+
+main #menu #pay {
+    background-color: #f00;
+}
+
+main #menu #receive {
+    background-color: #0f0;
+}
+
+main #menu #alter {
+    background-color: #fa8e00;
+}
+
+main #menu #delete {
+    background-color: #232323;
+}

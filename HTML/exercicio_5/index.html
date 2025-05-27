@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Inscrição</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email:</label><br>
+            <input type="email" id="name" name="email">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="zap">WhatsApp:</label><br>
+            <input type="tel" id="zap" name="zap">
+        </div>
+
+        <br>
+        
+        <label>Área de atuação</label>
+        <br>
+        <div>
+            <input type="radio" id="dev" name="area" value="dev" required>
+            <label for="dev">Desenvolvimento</label>
+
+            <input type="radio" id="qa" name="area" value="qa" required>
+            <label for="qa">Quality Assurance (QA)</label>
+
+            <input type="radio" id="dados" name="area" value="dados" required>
+            <label for="dados">Análise de Dados</label>
+
+            <input type="radio" id="infra" name="area" value="infra" required>
+            <label for="infra">Infraestrutura</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="obs">Observações:</label>
+            <textarea name="obs" id="Observações" cols="40" rows="4"></textarea>
+        </div>
+
+        <br>
+        
+        <input type="checkbox" id="novidadesEOfertas" name="novifertas">
+        <label for="novidadesEOfertas">Desejo receber novidades e ofertas por email.</label>
+        <br>
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>

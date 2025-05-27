@@ -1,0 +1,15 @@
+{
+  "name": "exercicio_19",
+  "version": "1.0.0",
+  "description": "Aprendendo a usar PPO (programação orientada a objetos)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zdu",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.13"
+  },
+  "type": "module"
+}

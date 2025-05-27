@@ -1,0 +1,14 @@
+{
+  "name": "exercicio_26-final",
+  "version": "1.0.0",
+  "description": "Finalizando o Módulo de JS do Curso FullStack JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "json-server": "json-server --watch db.json"
+  },
+  "author": "Zdu",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}

@@ -1,0 +1,6 @@
+import { themeSwitcher } from "./themeSwitcher.js"
+import { clicker } from "./clicker.js"
+import { calculate, equal } from "./calculate.js"
+import { clear } from "./clear.js"
+import { copy } from "./copy.js"
+import { keydown } from "./keydown.js"
